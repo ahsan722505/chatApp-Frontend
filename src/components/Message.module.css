@@ -1,0 +1,32 @@
+.messageCont{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: .8rem;
+    
+}
+.dataHolder{
+    width: 50%;
+    border: 2px solid teal;
+    padding: .3rem;
+    border-radius: .8rem;
+    background-color: teal;
+    color: white;
+    /* word-wrap: break-word; */
+}
+.dataHolder p{
+    
+    padding: 0;
+}
+.message{
+    margin: 0;
+    word-wrap: break-word;
+}
+.name{
+    color: yellow;
+    margin: 0 0 .5rem 0;
+    font-size: smaller;
+    
+    /* margin-bottom: .2rem; */
+    /* border: 2px solid red; */
+}

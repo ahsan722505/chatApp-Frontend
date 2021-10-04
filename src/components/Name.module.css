@@ -1,0 +1,47 @@
+.nameCont{
+    /* width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column; */
+}
+.nameCont h1{
+    text-align: center;
+    color: teal;
+    
+}
+.nameCont form{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    
+
+}
+.nameCont form *{
+    margin: .8rem 0;
+}
+.nameCont form input{
+    width: 50%;
+    padding: .8rem;
+}
+.nameCont form button{
+    padding: .7rem 1.2rem;
+    border-radius: .8rem;
+    border: none;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+}
+@media (max-width : 500px) {
+    .nameCont form{
+        width: 100%;
+    }
+    .nameCont form input{
+        width: 80%;
+    }
+}

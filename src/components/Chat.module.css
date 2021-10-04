@@ -1,0 +1,43 @@
+.messagesCont{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid teal;
+    margin-top: 2rem;
+    max-height: 70vh;
+    overflow: auto;
+    border-radius: .8rem;
+    
+}
+.send{
+    width: 50%;
+    margin: 1rem auto;
+    /* border: 2px solid teal; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.send button{
+    padding: .7rem 1.2rem;
+    border-radius: .8rem;
+    border: none;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+}
+.send input{
+    width: 70%;
+    padding: .8rem;
+    /* border-radius: .8rem; */
+    /* border: none; */
+    /* border-color: teal; */
+}
+@media (max-width : 500px) {
+    .messagesCont{
+        width: 90%;
+    }
+    .send{
+        width: 90%;
+    }
+}
