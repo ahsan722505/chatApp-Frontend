@@ -7,7 +7,7 @@ const Name=(props)=>{
         e.preventDefault();
         if(nameEl.current.value.trim().length === 0) return;
         if(nameEl.current.value.trim().length>20){
-            setError("Name cannot have more than 20")
+            setError("Name cannot have more than 20 characters")
             return;
         }
         props.onAddUser(nameEl.current.value.trim())
