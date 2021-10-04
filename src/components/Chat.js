@@ -9,7 +9,7 @@ const Chat=(props)=>{
     
     
     useEffect(()=>{
-        socket=io("http://192.168.10.13:3000");
+        socket=io("https://fierce-chamber-02811.herokuapp.com/");
         
         socket.emit("new-user",props.username)
         socket.on("new-user-joined",name=>{
